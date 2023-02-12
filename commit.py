@@ -12,7 +12,7 @@ f.write(str(random.randint(0, 100)))
 f.close()
 c()
 #等待随机事件
-time.sleep(random.randint(1000,9400))
+time.sleep(random.randint(1,10))
 #打开temp.txt文件
 f = open('temp.txt', 'w')
 #清空文件并随机写入一个数字
